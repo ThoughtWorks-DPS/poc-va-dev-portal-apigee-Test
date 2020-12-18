@@ -1,0 +1,8 @@
+site_name: "Test adding doc to VA"
+site_description: "Review of QA Card"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

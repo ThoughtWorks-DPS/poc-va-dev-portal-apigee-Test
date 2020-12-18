@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Test adding doc to VA"
+  description: "Review of QA Card"
+  annotations:
+    github.com/project-slug: "ThoughtWorks-DPS/poc-va-dev-portal-apigee-Test"
+    backstage.io/techdocs-ref: github:https://github.com/ThoughtWorks-DPS/poc-va-dev-portal-apigee-Test
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Suhasini"
